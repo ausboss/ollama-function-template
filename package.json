@@ -1,0 +1,24 @@
+{
+  "name": "ollama-function-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.0.26",
+    "@langchain/core": "^0.1.63",
+    "langchain": "^0.1.37",
+    "ollama": "^0.4.1",
+    "sharp": "^0.33.4",
+    "xstate": "^4.38.3",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.1"
+  }
+}
